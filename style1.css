@@ -1,0 +1,17 @@
+body{
+    text-align: start;
+    background-color: rgb(250, 247, 247);
+}
+.cont{
+    padding: 0px;
+    text-align: center;
+}
+.container{
+    background-color: rgb(238, 236, 236);
+    width: 60%;
+    padding-top: 2px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid gray;
+}

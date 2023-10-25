@@ -1,0 +1,39 @@
+.container{
+    justify-content: center;
+    border: 1px solid gray;
+    background-color: rgb(246, 246, 246);
+    padding: 50px;
+    width: max-content;
+}
+body{
+    margin-top: 20px;
+    margin-left: 24%;
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    text-align: center;
+}
+.container iframe {
+    display: block;
+    
+    margin: 100px 200px;
+
+    width: 256px;
+    height: 256px;
+}
+.item{
+    border: 1px solid #00000048;
+}
+.item a {
+    display: block;
+    padding: 25px;
+}
+.item img {
+    transition: 1s;
+}
+.item:hover img {
+    transform: scale(1.2);
+}
